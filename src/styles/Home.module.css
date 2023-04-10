@@ -150,7 +150,79 @@
   );
   background-clip: content-box;
 }
+#usr {    
+  background-color:white;
+  background-image: url("https://www.iconpacks.net/icons/1/free-user-icon-295-thumb.png");
+  background-repeat: no-repeat;
+  background-position: left;
 
+  background-size: 1.3em;
+  padding-left: 1.3em;
+  margin-bottom:20px;
+}
+#enviar{
+  background-color: #00737d; 
+  color: white;
+}
+#enviar {
+	box-shadow: 3px 3px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:17px;
+	font-weight:bold;
+	padding:9px 25px;
+  margin-top:20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+#enviar:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+#enviar:active {
+	position:relative;
+	top:1px;
+
+}
+
+.input {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 16px 20px 10px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  color: rgba(0,142,198,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 2px 2px 6px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 6px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 5px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+#senha{    
+  background-color:white;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1000/1000915.png");
+  background-repeat: no-repeat;
+  background-position: left;
+
+  background-size: 1.3em;
+  padding-left: 1.3em;
+}
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
